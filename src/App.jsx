@@ -22,14 +22,10 @@ function App() {
 
   const shellClassName = useMemo(() => {
     const classes = ['app-shell'];
-    if (currentUnit) {
-      classes.push(currentUnit.theme);
-    }
-    if (currentChamber) {
-      classes.push(currentChamber.background);
-    }
+    if (state.screen === 'home') classes.push('home');
+    if (currentUnit) classes.push(currentUnit.theme);
     return classes.join(' ');
-  }, [currentUnit, currentChamber]);
+  }, [state.screen, currentUnit]);
 
   const goHome = () => dispatch({ type: 'GO_HOME' });
 
@@ -94,8 +90,27 @@ function App() {
     screen = <WinScreen unit={currentUnit} relics={state.collectedRelics} onGoHome={goHome} />;
   }
 
+  const activeBg = (() => {
+    if (state.screen === 'intro' && currentUnit?.chamberStartBg) {
+      return currentUnit.chamberStartBg;
+    }
+    if (state.screen === 'chamber-intro' && currentUnit) {
+      return currentChamber?.background ?? null;
+    }
+    if ((state.screen === 'room-clear' || state.screen === 'win') && currentUnit) {
+      const isLast = state.chamberIdx === currentUnit.chambers.length - 1;
+      if (isLast && currentUnit.chamberEndBg) return currentUnit.chamberEndBg;
+    }
+    if (currentChamber?.background) {
+      return currentChamber.background;
+    }
+    return null;
+  })();
+
+  const chamberBgStyle = activeBg ? { '--chamber-bg': `url(${activeBg})` } : {};
+
   return (
-    <main className={shellClassName}>
+    <main className={shellClassName} style={chamberBgStyle}>
       <div className="bg-layer" aria-hidden="true" />
       <div className="content-shell">
         {showRelicBar ? <RelicBar relics={state.collectedRelics} /> : null}

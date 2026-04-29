@@ -5,15 +5,17 @@ export const units = [
    "subtitle":"Desert Pyramids",
    "theme":"desert",
    "emoji": "U1",
-   "description":"Ancient chambers of conditioning, memory, and Pavlovian lore.",
-   "intro":"You are trapped in an ancient pyramid built by scholars of behavior. Each sealed chamber tests your mastery of learning science. Solve each challenge, collect relics, and reach daylight.",
-   "winText":"The final seal shatters and desert light floods the sanctum. You escape with five relics and a deeper command of learning theory.",
+   "description":"Five sealed chambers built around conditioning and learning. Pavlov's ghost is somewhere in here.",
+   "intro":"Scholars of behavior sealed this pyramid centuries ago. Five chambers, five sets of questions. Get them right and the doors open. Get them wrong and the sand comes in.",
+   "winText":"The final seal breaks. Desert light cuts through the dust and hits your face. Five relics in your pack and a solid grasp of learning theory in your head.",
+   "chamberStartBg":"/images/unit1/chamber-start.jpg",
+   "chamberEndBg":"/images/unit1/chamber-end.jpg",
    "chambers": [
       {
        "id":"u1-c1",
        "title":"Chamber I - The Antechamber of Observation",
-       "intro":"Torchlight reveals rats, dogs, and pigeons carved into stone. The first chamber asks how learning is studied in the lab.",
-       "background":"desert-1",
+       "intro":"Torchlight hits the stone walls — rats, dogs, pigeons, all carved in relief and watching. This chamber covers how learning is studied in the lab.",
+       "background":"/images/unit1/chamber-1.jpg",
        "questions": [
           {
            "id":"u1-c1-q1",
@@ -146,8 +148,8 @@ export const units = [
       {
        "id":"u1-c2",
        "title":"Chamber II - Hall of Conditioned Tolerance",
-       "intro":"This hall smells of old medicine and prediction. Context cues and compensatory responses now guard your way.",
-       "background":"desert-2",
+       "intro":"The hall smells of old medicine. Something is pre-empting your every move. Context cues and compensatory responses block the door forward.",
+       "background":"/images/unit1/chamber-2.jpg",
        "questions": [
           {
            "id":"u1-c2-q1",
@@ -273,15 +275,15 @@ export const units = [
        "relic": {
          "name":"Silver Syringe of Tolerance",
          "icon": "SYR",
-         "description":"A reminder that context can change the body before the drug arrives.",
+         "description":"Context conditions the body before the drug arrives. The syringe holds that principle.",
          "clearText":"The second seal yields and a silver syringe appears from the wall."
         }
       },
       {
        "id":"u1-c3",
        "title":"Chamber III - The Vault of Habituation",
-       "intro":"Echoes and repeated signals fill this vault. You must explain why responses fade, recover, and depend on timing.",
-       "background":"desert-3",
+       "intro":"The same tone plays again. And again. The response it used to trigger is fading. This vault asks why — and what timing has to do with it.",
+       "background":"/images/unit1/chamber-3.jpg",
        "questions": [
           {
            "id":"u1-c3-q1",
@@ -407,15 +409,15 @@ export const units = [
        "relic": {
          "name":"Jade Tablet of Intensity",
          "icon": "TAB",
-         "description":"Engraved with principles from habituation and sensitization.",
-         "clearText":"The vault opens and a jade tablet rises from a stone pedestal."
+         "description":"Both processes engraved in stone: habituation on one face, sensitization on the other.",
+         "clearText":"The vault opens. A jade tablet rises from a stone pedestal."
         }
       },
       {
        "id":"u1-c4",
        "title":"Chamber IV - The Memory Sanctum",
-       "intro":"Floating orbs represent short-term and long-term traces. Surprising versus expected stimuli decides what can be learned.",
-       "background":"desert-4",
+       "intro":"Short-term memory orbs drift and flicker. Long-term ones glow steady. Wagner's rule: only surprising stimuli get fully processed. Expected ones barely register.",
+       "background":"/images/unit1/chamber-4.jpg",
        "questions": [
           {
            "id":"u1-c4-q1",
@@ -541,15 +543,15 @@ export const units = [
        "relic": {
          "name":"Golden Orb of Wagner",
          "icon": "ORB",
-         "description":"A symbol of memory states and the role of expectation.",
+         "description":"What's already in short-term memory doesn't get processed again. The orb holds that rule.",
          "clearText":"The sanctum fractures and a golden orb settles into your hand."
         }
       },
       {
        "id":"u1-c5",
        "title":"Chamber V - The Inner Sanctum of Pavlov",
-       "intro":"At the heart of the pyramid, bells and hieroglyphs demand mastery of conditioning models and inhibition.",
-       "background":"desert-5",
+       "intro":"The innermost chamber. Bells and hieroglyphs cover every wall. Conditioning models and conditioned inhibition are the only way through.",
+       "background":"/images/unit1/chamber-5.jpg",
        "questions": [
           {
            "id":"u1-c5-q1",
@@ -675,8 +677,8 @@ export const units = [
        "relic": {
          "name":"Pharaoh's Bell",
          "icon": "BELL",
-         "description":"The final relic that resonates with predictive learning.",
-         "clearText":"The final desert chamber falls silent as Pharaohs Bell begins to ring."
+         "description":"It rings. You expect something. That's the whole mechanism.",
+         "clearText":"The final desert chamber falls silent. Pharaoh's Bell begins to ring."
         }
       }
     ]
@@ -687,15 +689,17 @@ export const units = [
    "subtitle":"Haunted House",
    "theme":"haunted",
    "emoji": "U2",
-   "description":"A mansion where consequences shape every hallway and habit.",
-   "intro":"A dare brought you into Hargrove Mansion. The front door is locked and each room runs on operant logic. Learn the contingencies or become part of the house.",
+   "description":"Hargrove Mansion. Every hallway runs on consequences. Every habit was shaped by something that happened in here.",
+   "intro":"A dare brought you into Hargrove Mansion. The front door locked behind you. Every room runs on operant logic. Learn the contingencies or become part of the house.",
    "winText":"The EXIT door opens to cold night air. You leave with hard-earned relics and the knowledge that extinction covers learning but does not erase it.",
+   "chamberStartBg":"/images/unit2/chamber-start.jpg",
+   "chamberEndBg":"",
    "chambers": [
       {
        "id":"u2-c1",
        "title":"Chamber I - The Parlor of Thorndike",
-       "intro":"The parlor displays puzzle boxes and old experiments. Your first task is the law of effect and core ABA consequences.",
-       "background":"haunted-1",
+       "intro":"Puzzle boxes and taxidermied animals line the parlor walls. Thorndike was here first. This room covers the law of effect and the core ABA consequences.",
+       "background":"/images/unit2/chamber-1.jpg",
        "questions": [
           {
            "id":"u2-c1-q1",
@@ -821,15 +825,15 @@ export const units = [
        "relic": {
          "name":"Brass Lever of Thorndike",
          "icon": "LEV",
-         "description":"A reminder that consequences sculpt behavior over trials.",
+         "description":"Pulled from a puzzle box. Consequences built this lever one trial at a time.",
          "clearText":"Wax seals crack and a brass lever drops into your hand."
         }
       },
       {
        "id":"u2-c2",
        "title":"Chamber II - The Nursery of Shaping",
-       "intro":"A music box clicks while painted panels mark successive approximations. The room tests shaping and conditioned reinforcers.",
-       "background":"haunted-2",
+       "intro":"A music box clicks in the corner. Painted panels mark each step toward a behavior that hasn't happened yet. This room covers shaping and what makes a reinforcer work.",
+       "background":"/images/unit2/chamber-2.jpg",
        "questions": [
           {
            "id":"u2-c2-q1",
@@ -956,14 +960,14 @@ export const units = [
          "name":"Gilded Clicker",
          "icon": "CLK",
          "description":"A secondary reinforcer forged through precise pairing.",
-         "clearText":"Padlocks release and the Gilded Clicker rises from the floor."
+         "clearText":"Padlocks snap open. The Gilded Clicker rises from the floor."
         }
       },
       {
        "id":"u2-c3",
        "title":"Chamber III - The Study of Outcomes",
-       "intro":"Bookshelves hide tests of expectancy. You will separate rigid habits from goal-directed behavior.",
-       "background":"haunted-3",
+       "intro":"The bookshelves are stacked with studies about what animals actually know when they press a lever. Habits versus goals. The room will make you pick a side.",
+       "background":"/images/unit2/chamber-3.jpg",
        "questions": [
           {
            "id":"u2-c3-q1",
@@ -1089,15 +1093,15 @@ export const units = [
        "relic": {
          "name":"Stone Banana of Expectancy",
          "icon": "BAN",
-         "description":"Proof that organisms encode specific outcomes.",
+         "description":"The monkey knew it was supposed to be a banana. This is the evidence.",
          "clearText":"The study dome lifts and a carved stone banana appears."
         }
       },
       {
        "id":"u2-c4",
        "title":"Chamber IV - The Basement of Choice",
-       "intro":"A pendulum marks delay values while twin levers demand decisions. This chamber tests matching, discounting, and motivation.",
-       "background":"haunted-4",
+       "intro":"A pendulum ticks through the delay values. Two levers wait in opposite corners. This room is about how organisms choose — matching, discounting, and what actually drives behavior.",
+       "background":"/images/unit2/chamber-4.jpg",
        "questions": [
           {
            "id":"u2-c4-q1",
@@ -1230,8 +1234,8 @@ export const units = [
       {
        "id":"u2-c5",
        "title":"Chamber V - The Attic of Extinction",
-       "intro":"Relapse words drift through attic dust. You must explain renewal, reinstatement, and response-specific inhibition.",
-       "background":"haunted-5",
+       "intro":"Dust and old case files cover the attic floor. Renewal, reinstatement, spontaneous recovery — all documented up here. Explain them correctly and find the exit.",
+       "background":"/images/unit2/chamber-5.jpg",
        "questions": [
           {
            "id":"u2-c5-q1",
@@ -1357,8 +1361,8 @@ export const units = [
        "relic": {
          "name":"EXIT Key",
          "icon": "KEY",
-         "description":"A key that symbolizes extinction as new learning, not deletion.",
-         "clearText":"The final attic lock clicks and the EXIT Key lands in your palm."
+         "description":"Extinction doesn't erase the original memory. It just adds a new one. The key still opens the door.",
+         "clearText":"The final lock clicks. The EXIT Key lands in your palm."
         }
       }
     ]
@@ -1369,15 +1373,17 @@ export const units = [
    "subtitle":"Escape the Alien Ship",
    "theme":"alien",
    "emoji": "U3",
-   "description":"An extraterrestrial trial of consequences, avoidance, and extinction relapse.",
-   "intro":"A behaviorist alien ship has trapped you aboard. Every console tests learning principles. Clear three ship sections and unlock the airlock.",
+   "description":"Behaviorist aliens. Three ship sections between you and the airlock. Each one tests a different piece of learning theory.",
+   "intro":"You're locked aboard a behaviorist alien ship and the airlock is sealed. Three sections stand between you and home. Every console tests a principle. Get through all of them.",
    "winText":"The pod launches toward Earth as the ship transmits one final warning: do not confuse suppression with erasure.",
+   "chamberStartBg":"/images/unit3/chamber-start.jpg",
+   "chamberEndBg":"/images/unit3/chamber-end.jpg",
    "chambers": [
       {
        "id":"u3-c1",
        "title":"Section I - Docking Bay of Consequences",
-       "intro":"Holographic puzzle boxes and punishment protocols line the bay. Consequence theory gates the first blast door.",
-       "background":"alien-1",
+       "intro":"Holographic puzzle boxes line the docking bay walls, each one running a punishment protocol. Get through the consequence theory and the blast door opens.",
+       "background":"/images/unit3/chamber-1.jpg",
        "questions": [
           {
            "id":"u3-c1-q1",
@@ -1472,7 +1478,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A child's hologram appears on the docking bay wall — behaving perfectly while a stern figure watches. The figure turns away. The behavior returns instantly. The alien ship has observed this pattern on Earth for millennia. Suppression is not elimination.",
+           "wrongStory":"A child's hologram appears on the docking bay wall — behaving perfectly while a stern figure watches. The figure turns away. The behavior comes back immediately. The alien ship has seen this exact pattern before. Suppression is not elimination.",
            "explanation":"Punished behavior is suppressed, not erased. When the punishing agent is absent, the behavior returns. The punisher becomes an Sd — a signal that punishment is imminent — teaching the organism when it is safe to perform the behavior again rather than eliminating it."
           },
           {
@@ -1503,15 +1509,15 @@ export const units = [
        "relic": {
          "name":"Amber Consequence Token",
          "icon": "TOK",
-         "description":"Encoded with the Law of Effect.",
+         "description":"The Law of Effect, compressed into amber.",
          "clearText":"The central console ejects a glowing amber token."
         }
       },
       {
        "id":"u3-c2",
        "title":"Section II - Avoidance Engine Room",
-       "intro":"Warning lights and turbine alarms pulse in cycles. This sector tests fear signals, shock reduction, and ERP logic.",
-       "background":"alien-2",
+       "intro":"Warning lights cycle. Turbines hum. This sector covers fear signals, shock reduction, and how ERP actually works.",
+       "background":"/images/unit3/chamber-2.jpg",
        "questions": [
           {
            "id":"u3-c2-q1",
@@ -1637,15 +1643,15 @@ export const units = [
        "relic": {
          "name":"Safety Signal Shield",
          "icon": "SHD",
-         "description":"A symbol of conditioned inhibition and safe cues.",
+         "description":"The shield signals safety. That's exactly what a conditioned inhibitor does.",
          "clearText":"A floor panel opens and reveals a polished safety shield."
         }
       },
       {
        "id":"u3-c3",
        "title":"Section III - Command Deck of Extinction",
-       "intro":"Five holographic contexts rotate around the captain chair. Explain relapse mechanisms to unlock the final escape.",
-       "background":"alien-3",
+       "intro":"Five holographic environments rotate around the captain's chair, each one a different context. Name the relapse mechanisms and the airlock opens.",
+       "background":"/images/unit3/chamber-3.jpg",
        "questions": [
           {
            "id":"u3-c3-q1",

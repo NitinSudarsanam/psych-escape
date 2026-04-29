@@ -5,12 +5,12 @@ function WrongAnswerScreen({ wrongContext, onTryAgain }) {
       <h1>That answer triggered a trap.</h1>
       <p className="story-block">{wrongContext?.story}</p>
       <div className="explanation-block">
-        <h2>Why it is wrong</h2>
+        <h2>Why that's wrong</h2>
         <p>{wrongContext?.explanation}</p>
       </div>
       <div className="screen-actions">
         <button type="button" className="primary-btn" onClick={onTryAgain}>
-          Try The Same Question Again
+          Try Again
         </button>
       </div>
     </section>

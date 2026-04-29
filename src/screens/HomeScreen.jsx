@@ -5,8 +5,8 @@ function HomeScreen({ units, onSelectUnit }) {
         <p className="eyebrow">Psych Escape Room</p>
         <h1>Trapped in the Learning Labyrinth</h1>
         <p className="lead">
-          You are locked inside three themed escape routes built around conditioning and learning.
-          Choose a level, survive each chamber, and unlock the final way out.
+          Three escape routes, each locked around conditioning and learning.
+          Pick a level, survive the chambers, find the exit.
         </p>
       </div>
 

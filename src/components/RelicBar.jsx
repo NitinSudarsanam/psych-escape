@@ -4,7 +4,7 @@ function RelicBar({ relics }) {
       <div className="relic-bar-title">Collected Relics</div>
       <div className="relic-list">
         {relics.length === 0 ? (
-          <span className="relic-empty">None yet. Answer correctly to unlock relics.</span>
+          <span className="relic-empty">Nothing yet. Get a question right to unlock your first relic.</span>
         ) : (
           relics.map((relic) => (
             <div key={relic.name} className="relic-chip" title={relic.description}>
