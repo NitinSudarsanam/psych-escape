@@ -1,0 +1,431 @@
+.app-shell {
+  --theme-primary: #c49a3c;
+  --theme-secondary: #d4b483;
+  --theme-accent: #f9d26b;
+  --theme-ink: #1f1202;
+  --surface: rgba(16, 13, 8, 0.74);
+  --surface-border: rgba(255, 255, 255, 0.2);
+
+  position: relative;
+  min-height: 100vh;
+  color: #f9f7f1;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.bg-layer {
+  position: absolute;
+  inset: 0;
+  background-size: 220% 220%;
+  animation: drift 14s ease-in-out infinite;
+}
+
+.content-shell {
+  position: relative;
+  z-index: 1;
+  max-width: 1040px;
+  margin: 0 auto;
+  display: grid;
+  gap: 18px;
+}
+
+.screen {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 20px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.38);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  color: var(--theme-accent);
+  margin: 0 0 10px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(1.2rem, 2.2vw, 1.7rem);
+}
+
+p {
+  line-height: 1.6;
+}
+
+.hero-panel {
+  margin-bottom: 18px;
+}
+
+.lead {
+  max-width: 70ch;
+  margin-top: 12px;
+}
+
+.unit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.unit-card {
+  background: rgba(10, 8, 5, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.unit-card-top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.unit-emoji {
+  font-size: 1.8rem;
+}
+
+.unit-title {
+  margin: 4px 0 0;
+  color: #f2e7c6;
+}
+
+.unit-description {
+  margin: 0;
+  color: #efe9d2;
+}
+
+.screen-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn,
+.answer-button {
+  border: 0;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.96rem;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 11px 18px;
+}
+
+.primary-btn {
+  color: #201100;
+  background: linear-gradient(120deg, var(--theme-accent), var(--theme-primary));
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
+}
+
+.secondary-btn {
+  color: #f6efe1;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.answer-button:hover {
+  transform: translateY(-2px);
+}
+
+.narrative-screen,
+.wrong-screen,
+.room-clear-screen {
+  max-width: 860px;
+}
+
+.story-block {
+  margin-top: 14px;
+  color: #f7f2e2;
+}
+
+.question-screen {
+  display: grid;
+  gap: 14px;
+}
+
+.question-text {
+  font-size: 1.07rem;
+  margin: 2px 0 10px;
+}
+
+.answers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.answer-button {
+  text-align: left;
+  color: #fefbf4;
+  background: rgba(8, 7, 5, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  min-height: 86px;
+  padding: 14px;
+}
+
+.answer-button:disabled {
+  cursor: default;
+  opacity: 0.88;
+}
+
+.answer-button.is-correct {
+  border-color: #6bffbe;
+  background: rgba(21, 74, 44, 0.72);
+  box-shadow: 0 0 0 2px rgba(91, 255, 183, 0.26) inset;
+}
+
+.answer-button.is-wrong {
+  border-color: #ff8d8d;
+  background: rgba(106, 28, 28, 0.72);
+  animation: wrongFlash 320ms ease;
+}
+
+.relic-bar {
+  display: grid;
+  gap: 10px;
+  background: rgba(8, 6, 5, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.relic-bar-title {
+  font-family: 'Cinzel', serif;
+  color: var(--theme-accent);
+}
+
+.relic-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.relic-chip,
+.win-relic-chip {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 6px 11px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.84rem;
+}
+
+.relic-empty {
+  color: #ddd6c3;
+  font-size: 0.9rem;
+}
+
+.explanation-block {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.relic-reveal {
+  margin-top: 16px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  background: rgba(10, 7, 5, 0.48);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.relic-reveal-icon {
+  font-size: 2rem;
+  animation: relicPop 700ms ease;
+}
+
+.win-relics {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fade-in {
+  animation: riseIn 500ms ease;
+}
+
+.desert {
+  --theme-primary: #c49a3c;
+  --theme-secondary: #d4b483;
+  --theme-accent: #f2ce74;
+}
+
+.haunted {
+  --theme-primary: #9a2020;
+  --theme-secondary: #5a2f4f;
+  --theme-accent: #d697b9;
+}
+
+.alien {
+  --theme-primary: #00cccc;
+  --theme-secondary: #003344;
+  --theme-accent: #7de6ff;
+}
+
+.app-shell.desert .bg-layer {
+  background-image: radial-gradient(circle at 10% 10%, #e2bc6d 0%, transparent 38%),
+    radial-gradient(circle at 84% 24%, #9a6d24 0%, transparent 36%),
+    linear-gradient(130deg, #1b0d02 0%, #5b330e 44%, #2a1603 100%);
+}
+
+.app-shell.haunted .bg-layer {
+  background-image: radial-gradient(circle at 24% 16%, #b34343 0%, transparent 36%),
+    radial-gradient(circle at 78% 72%, #49203d 0%, transparent 32%),
+    linear-gradient(145deg, #12050a 0%, #2c0e14 38%, #070207 100%);
+}
+
+.app-shell.alien .bg-layer {
+  background-image: radial-gradient(circle at 20% 12%, #0cd8d8 0%, transparent 34%),
+    radial-gradient(circle at 80% 84%, #00a5d1 0%, transparent 31%),
+    linear-gradient(145deg, #020912 0%, #01263a 46%, #001018 100%);
+}
+
+.desert-1 .bg-layer {
+  filter: saturate(1.1);
+}
+
+.desert-2 .bg-layer {
+  filter: hue-rotate(-4deg) brightness(0.95);
+}
+
+.desert-3 .bg-layer {
+  filter: hue-rotate(12deg) contrast(1.04);
+}
+
+.desert-4 .bg-layer {
+  filter: brightness(1.03) saturate(1.2);
+}
+
+.desert-5 .bg-layer {
+  filter: hue-rotate(-12deg) contrast(1.08);
+}
+
+.haunted-1 .bg-layer {
+  filter: saturate(1.05) brightness(0.9);
+}
+
+.haunted-2 .bg-layer {
+  filter: hue-rotate(12deg) brightness(0.92);
+}
+
+.haunted-3 .bg-layer {
+  filter: contrast(1.08);
+}
+
+.haunted-4 .bg-layer {
+  filter: hue-rotate(-10deg) brightness(0.88);
+}
+
+.haunted-5 .bg-layer {
+  filter: saturate(1.2) brightness(0.85);
+}
+
+.alien-1 .bg-layer {
+  filter: saturate(1.1) brightness(0.96);
+}
+
+.alien-2 .bg-layer {
+  filter: hue-rotate(16deg) contrast(1.06);
+}
+
+.alien-3 .bg-layer {
+  filter: hue-rotate(-12deg) brightness(1.01);
+}
+
+@keyframes drift {
+  0% {
+    background-position: 0% 40%;
+  }
+  50% {
+    background-position: 100% 62%;
+  }
+  100% {
+    background-position: 0% 40%;
+  }
+}
+
+@keyframes wrongFlash {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-4px);
+  }
+  65% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes relicPop {
+  0% {
+    transform: scale(0.4) rotate(-18deg);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.08) rotate(4deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    padding: 14px;
+  }
+
+  .screen {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .answers-grid {
+    grid-template-columns: 1fr;
+  }
+}
