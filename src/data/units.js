@@ -13,8 +13,8 @@ export const units = [
    "chambers": [
       {
        "id":"u1-c1",
-       "title":"Chamber I - The Antechamber of Observation",
-       "intro":"Torchlight hits the stone walls — rats, dogs, pigeons, all carved in relief and watching. This chamber covers how learning is studied in the lab.",
+       "title":"Chamber I,The Antechamber of Observation",
+       "intro":"Torchlight hits the stone walls,rats, dogs, pigeons, all carved in relief and watching. This chamber covers how learning is studied in the lab.",
        "background":"/images/unit1/chamber-1.jpg",
        "questions": [
           {
@@ -38,7 +38,7 @@ export const units = [
                "correct": true
               }
             ],
-           "wrongStory":"A section of the floor crumbles — sand pours in from below. The pyramid is displeased with your answer.",
+           "wrongStory":"A section of the floor crumbles,sand pours in from below. The pyramid is displeased with your answer.",
            "explanation":"The three operations are: (1) present a stimulus, (2) arrange a relationship between two stimuli, and (3) arrange a relationship between behavior and a stimulus. Measuring neural firing rates is a technique, not one of the defining operations of studying learning."
           },
           {
@@ -46,19 +46,19 @@ export const units = [
            "text":"In Pavlovian (classical) conditioning, the organism's role is best described as:",
            "answers": [
               {
-               "text":"Active — behaviors are reinforced by consequences",
+               "text":"Active,behaviors are reinforced by consequences",
                "correct": false
               },
               {
-               "text":"Passive — the organism has no role at all",
+               "text":"Passive,the organism has no role at all",
                "correct": false
               },
               {
-               "text":"Passive — associations form through stimulus pairings without required behavior",
+               "text":"Passive,associations form through stimulus pairings without required behavior",
                "correct": true
               },
               {
-               "text":"Active — the organism must press a lever to receive the US",
+               "text":"Active,the organism must press a lever to receive the US",
                "correct": false
               }
             ],
@@ -122,7 +122,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The turtles learned about the taste, texture, and appearance of their food — encoding a representation of S1",
+               "text":"The turtles learned about the taste, texture, and appearance of their food,encoding a representation of S1",
                "correct": true
               },
               {
@@ -135,7 +135,7 @@ export const units = [
               }
             ],
            "wrongStory":"The ankh remains just out of reach. The wall carving of the turtle turns away.",
-           "explanation":"The turtles showed preference for their specific T1 diet, which means they had encoded a representation of that stimulus during T1 and used it to guide behavior at T2 — a clear demonstration of stimulus representation learning."
+           "explanation":"The turtles showed preference for their specific T1 diet, which means they had encoded a representation of that stimulus during T1 and used it to guide behavior at T2,a clear demonstration of stimulus representation learning."
           }
         ],
        "relic": {
@@ -147,7 +147,7 @@ export const units = [
       },
       {
        "id":"u1-c2",
-       "title":"Chamber II - Hall of Conditioned Tolerance",
+       "title":"Chamber II,Hall of Conditioned Tolerance",
        "intro":"The hall smells of old medicine. Something is pre-empting your every move. Context cues and compensatory responses block the door forward.",
        "background":"/images/unit1/chamber-2.jpg",
        "questions": [
@@ -156,11 +156,11 @@ export const units = [
            "text":"Siegel's (1975) research on morphine tolerance proposed that tolerance is:",
            "answers": [
               {
-               "text":"Purely pharmacological — the liver metabolizes the drug faster over time",
+               "text":"Purely pharmacological,the liver metabolizes the drug faster over time",
                "correct": false
               },
               {
-               "text":"Conditioned — the environment and contextual cues elicit a compensatory response that counteracts the drug",
+               "text":"Conditioned,the environment and contextual cues elicit a compensatory response that counteracts the drug",
                "correct": true
               },
               {
@@ -173,7 +173,7 @@ export const units = [
               }
             ],
            "wrongStory":"The morphine vials on the wall shatter. Sand hisses through the cracks.",
-           "explanation":"Siegel argued that tolerance is a conditioned compensatory response. The body associates the context (room, stimuli) with drug delivery and pre-emptively counteracts the drug effect. In a novel context, this compensation doesn't occur — explaining overdoses in unfamiliar environments."
+           "explanation":"Siegel argued that tolerance is a conditioned compensatory response. The body associates the context (room, stimuli) with drug delivery and pre-emptively counteracts the drug effect. In a novel context, this compensation doesn't occur,explaining overdoses in unfamiliar environments."
           },
           {
            "id":"u1-c2-q2",
@@ -197,7 +197,7 @@ export const units = [
               }
             ],
            "wrongStory":"The floor hisses. You feel slightly unsteady. Context matters here too.",
-           "explanation":"The conditioned compensatory response is cued by context. In a new environment, those contextual cues are missing, so the body doesn't mount its usual compensatory response, making the same dose more powerful — and potentially fatal."
+           "explanation":"The conditioned compensatory response is cued by context. In a new environment, those contextual cues are missing, so the body doesn't mount its usual compensatory response, making the same dose more powerful,and potentially fatal."
           },
           {
            "id":"u1-c2-q3",
@@ -221,7 +221,7 @@ export const units = [
               }
             ],
            "wrongStory":"A low tone echoes. Your pulse quickens. You know what comes next.",
-           "explanation":"The light signals when shock is possible — giving the animal a \"safety signal\" during other periods. The tone signals the shock is about to happen immediately, providing no safety period. Animals prefer the signal that tells them when they are safe."
+           "explanation":"The light signals when shock is possible,giving the animal a \"safety signal\" during other periods. The tone signals the shock is about to happen immediately, providing no safety period. Animals prefer the signal that tells them when they are safe."
           },
           {
            "id":"u1-c2-q4",
@@ -245,7 +245,7 @@ export const units = [
               }
             ],
            "wrongStory":"A towel drops from the ceiling. Then another. They keep coming.",
-           "explanation":"Stimulus satiation involves flooding the subject with so much of the desired stimulus that it becomes aversive or loses its reinforcing value. After receiving 625 towels, the patient began discarding them spontaneously — the towels were no longer rewarding."
+           "explanation":"Stimulus satiation involves flooding the subject with so much of the desired stimulus that it becomes aversive or loses its reinforcing value. After receiving 625 towels, the patient began discarding them spontaneously,the towels were no longer rewarding."
           },
           {
            "id":"u1-c2-q5",
@@ -256,7 +256,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"They never conducted a T2 common test — all groups received different final stimuli, making comparisons meaningless",
+               "text":"They never conducted a T2 common test,all groups received different final stimuli, making comparisons meaningless",
                "correct": true
               },
               {
@@ -281,8 +281,8 @@ export const units = [
       },
       {
        "id":"u1-c3",
-       "title":"Chamber III - The Vault of Habituation",
-       "intro":"The same tone plays again. And again. The response it used to trigger is fading. This vault asks why — and what timing has to do with it.",
+       "title":"Chamber III,The Vault of Habituation",
+       "intro":"The same tone plays again. And again. The response it used to trigger is fading. This vault asks why,and what timing has to do with it.",
        "background":"/images/unit1/chamber-3.jpg",
        "questions": [
           {
@@ -307,7 +307,7 @@ export const units = [
               }
             ],
            "wrongStory":"A great gong sounds from within the pyramid. The sound barely registers to you now.",
-           "explanation":"With a proper T2 design, Davis and Wagner found the opposite of what the classic study claimed: the strongest stimulus produced the most habituation. This replaced the prior literature — strong stimuli habituate better."
+           "explanation":"With a proper T2 design, Davis and Wagner found the opposite of what the classic study claimed: the strongest stimulus produced the most habituation. This replaced the prior literature,strong stimuli habituate better."
           },
           {
            "id":"u1-c3-q2",
@@ -318,7 +318,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The system responsible for sensitization — raising the overall responsiveness to all stimuli",
+               "text":"The system responsible for sensitization,raising the overall responsiveness to all stimuli",
                "correct": true
               },
               {
@@ -379,7 +379,7 @@ export const units = [
               }
             ],
            "wrongStory":"A bright flash of light fills the room. Your heart pounds. You're on high alert.",
-           "explanation":"G&T explain dishabituation via the state system: a novel stimulus triggers sensitization, which boosts the overall response level temporarily — including to the previously habituated stimulus. Habituation remains in the S-R pathway; it's the state system that temporarily masks it."
+           "explanation":"G&T explain dishabituation via the state system: a novel stimulus triggers sensitization, which boosts the overall response level temporarily,including to the previously habituated stimulus. Habituation remains in the S-R pathway; it's the state system that temporarily masks it."
           },
           {
            "id":"u1-c3-q5",
@@ -390,7 +390,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Habituation was context-specific — stimuli habituated in one context were less habituated in a new context, supporting Wagner's Memory Model",
+               "text":"Habituation was context-specific,stimuli habituated in one context were less habituated in a new context, supporting Wagner's Memory Model",
                "correct": true
               },
               {
@@ -415,7 +415,7 @@ export const units = [
       },
       {
        "id":"u1-c4",
-       "title":"Chamber IV - The Memory Sanctum",
+       "title":"Chamber IV,The Memory Sanctum",
        "intro":"Short-term memory orbs drift and flicker. Long-term ones glow steady. Wagner's rule: only surprising stimuli get fully processed. Expected ones barely register.",
        "background":"/images/unit1/chamber-4.jpg",
        "questions": [
@@ -428,7 +428,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Its representation is absent from short-term memory (STM) — i.e., it is surprising",
+               "text":"Its representation is absent from short-term memory (STM),i.e., it is surprising",
                "correct": true
               },
               {
@@ -440,7 +440,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"An orb flickers. You were not surprised — but the pyramid was not impressed.",
+           "wrongStory":"An orb flickers. You were not surprised,but the pyramid was not impressed.",
            "explanation":"Wagner's key assumption: only surprising stimuli (those not already represented in STM) elicit responses and produce learning. If the stimulus is already primed in STM (expected), it is not surprising and produces little response or learning."
           },
           {
@@ -489,7 +489,7 @@ export const units = [
               }
             ],
            "wrongStory":"The dog turns away. The bell rings faintly in the dark, then fades.",
-           "explanation":"Spontaneous recovery — the return of the CR after a rest period following extinction — shows that extinction does not erase the original CS-US association. It inhibits it. Pavlov saw this as proof that the original learning survives."
+           "explanation":"Spontaneous recovery,the return of the CR after a rest period following extinction,shows that extinction does not erase the original CS-US association. It inhibits it. Pavlov saw this as proof that the original learning survives."
           },
           {
            "id":"u1-c4-q4",
@@ -500,7 +500,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"It proves that contiguity alone is not sufficient — prior associations interfere with new ones",
+               "text":"It proves that contiguity alone is not sufficient,prior associations interfere with new ones",
                "correct": true
               },
               {
@@ -512,8 +512,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The noise booms through the chamber. The light appears — but means nothing. You were too late.",
-           "explanation":"Blocking directly contradicts Pavlov's contiguity principle. The light and shock were contiguous (co-occurring) in phase 2, yet no conditioning to the light occurred. Prior conditioning to the noise meant the shock was already predicted — the light added no new information."
+           "wrongStory":"The noise booms through the chamber. The light appears,but means nothing. You were too late.",
+           "explanation":"Blocking directly contradicts Pavlov's contiguity principle. The light and shock were contiguous (co-occurring) in phase 2, yet no conditioning to the light occurred. Prior conditioning to the noise meant the shock was already predicted,the light added no new information."
           },
           {
            "id":"u1-c4-q5",
@@ -524,7 +524,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"No conditioning occurred — the tone provided no predictive information",
+               "text":"No conditioning occurred,the tone provided no predictive information",
                "correct": true
               },
               {
@@ -549,7 +549,7 @@ export const units = [
       },
       {
        "id":"u1-c5",
-       "title":"Chamber V - The Inner Sanctum of Pavlov",
+       "title":"Chamber V,The Inner Sanctum of Pavlov",
        "intro":"The innermost chamber. Bells and hieroglyphs cover every wall. Conditioning models and conditioned inhibition are the only way through.",
        "background":"/images/unit1/chamber-5.jpg",
        "questions": [
@@ -566,7 +566,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The asymptote of learning — the maximum association strength supported by the US",
+               "text":"The asymptote of learning,the maximum association strength supported by the US",
                "correct": true
               },
               {
@@ -574,8 +574,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"You've reached the ceiling — but you don't know what it is. The model eludes you.",
-           "explanation":"Lambda is the asymptote — the maximum associative strength the US can support. When the summed associative strength of all present CSs equals lambda, no further learning occurs (the prediction error is zero)."
+           "wrongStory":"You've reached the ceiling,but you don't know what it is. The model eludes you.",
+           "explanation":"Lambda is the asymptote,the maximum associative strength the US can support. When the summed associative strength of all present CSs equals lambda, no further learning occurs (the prediction error is zero)."
           },
           {
            "id":"u1-c5-q2",
@@ -586,11 +586,11 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Overexpectation — the combined strength exceeds lambda, so conditioning to both A and B decreases",
+               "text":"Overexpectation,the combined strength exceeds lambda, so conditioning to both A and B decreases",
                "correct": true
               },
               {
-               "text":"Blocking — A prevents any new learning about B",
+               "text":"Blocking,A prevents any new learning about B",
                "correct": false
               },
               {
@@ -599,7 +599,7 @@ export const units = [
               }
             ],
            "wrongStory":"You expected too much. The pyramid adjusts your expectations downward.",
-           "explanation":"Overexpectation: if VA = λ and VB = λ, then Vsum = 2λ when presented together — twice the asymptote. Since λ − Vsum is negative, both VA and VB must decrease until Vsum = λ. Individually, A and B then each produce less fear."
+           "explanation":"Overexpectation: if VA = λ and VB = λ, then Vsum = 2λ when presented together,twice the asymptote. Since λ − Vsum is negative, both VA and VB must decrease until Vsum = λ. Individually, A and B then each produce less fear."
           },
           {
            "id":"u1-c5-q3",
@@ -623,7 +623,7 @@ export const units = [
               }
             ],
            "wrongStory":"The inhibitory glyph on the wall flares. You confused forgetting with suppression.",
-           "explanation":"Conditioned inhibition explains: (1) spontaneous recovery — the inhibitor weakens over time; (2) disinhibition — a novel stimulus disrupts inhibition; (3) savings — inhibition is easier to overcome than building from scratch. Complete forgetting of the CS-US association is not part of the conditioned inhibition explanation."
+           "explanation":"Conditioned inhibition explains: (1) spontaneous recovery,the inhibitor weakens over time; (2) disinhibition,a novel stimulus disrupts inhibition; (3) savings,inhibition is easier to overcome than building from scratch. Complete forgetting of the CS-US association is not part of the conditioned inhibition explanation."
           },
           {
            "id":"u1-c5-q4",
@@ -647,7 +647,7 @@ export const units = [
               }
             ],
            "wrongStory":"The inhibitor is present. You did not recognize it. The excitor fires, unimpeded.",
-           "explanation":"X becomes a conditioned inhibitor — it predicts the omission of the US. This is verified by two tests: the summation test (X reduces responding to a known excitor B, so BX < B) and retardation of acquisition (X is harder to turn into an excitor than a neutral stimulus Y, because the inhibitory association must first be undone)."
+           "explanation":"X becomes a conditioned inhibitor,it predicts the omission of the US. This is verified by two tests: the summation test (X reduces responding to a known excitor B, so BX < B) and retardation of acquisition (X is harder to turn into an excitor than a neutral stimulus Y, because the inhibitory association must first be undone)."
           },
           {
            "id":"u1-c5-q5",
@@ -662,7 +662,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"On the US representation — inhibiting the expectation of the unconditioned stimulus itself",
+               "text":"On the US representation,inhibiting the expectation of the unconditioned stimulus itself",
                "correct": true
               },
               {
@@ -671,7 +671,7 @@ export const units = [
               }
             ],
            "wrongStory":"The US flickers. The inhibitor is everywhere. It acts deeper than you thought.",
-           "explanation":"Evidence shows the CI acts on the US representation — it inhibits the expected representation of the US itself. Because it reduces responding to ANY excitor (not just A), it cannot be acting on A's representation or the A-US connection specifically. It broadly suppresses US expectation."
+           "explanation":"Evidence shows the CI acts on the US representation,it inhibits the expected representation of the US itself. Because it reduces responding to ANY excitor (not just A), it cannot be acting on A's representation or the A-US connection specifically. It broadly suppresses US expectation."
           }
         ],
        "relic": {
@@ -697,7 +697,7 @@ export const units = [
    "chambers": [
       {
        "id":"u2-c1",
-       "title":"Chamber I - The Parlor of Thorndike",
+       "title":"Chamber I,The Parlor of Thorndike",
        "intro":"Puzzle boxes and taxidermied animals line the parlor walls. Thorndike was here first. This room covers the law of effect and the core ABA consequences.",
        "background":"/images/unit2/chamber-1.jpg",
        "questions": [
@@ -710,7 +710,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Escape times stayed the same across all trials — cats never improved",
+               "text":"Escape times stayed the same across all trials,cats never improved",
                "correct": false
               },
               {
@@ -722,7 +722,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The taxidermied cat in the glass case slowly turns its head toward you. Its glass eyes catch the candlelight. There was no Eureka moment in that box — only slow, grinding consequence.",
+           "wrongStory":"The taxidermied cat in the glass case slowly turns its head toward you. Its glass eyes catch the candlelight. There was no Eureka moment in that box,only slow, grinding consequence.",
            "explanation":"Thorndike observed no \"Eureka!\" moment. Escape latency dropped gradually over trials as the accidentally successful behavior was reinforced. This was trial-and-error learning, not reasoning or insight."
           },
           {
@@ -746,8 +746,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The fireplace ignites on its own — cold blue flame, no heat. The armchair nearest you scrapes an inch closer across the floor. The house runs on consequences. You just demonstrated the wrong one.",
-           "explanation":"The Law of Effect says satisfying outcomes strengthen the S-R association while annoying outcomes weaken it. Reinforcement is what drives behavior — not insight, not goals, just consequences."
+           "wrongStory":"The fireplace ignites on its own,cold blue flame, no heat. The armchair nearest you scrapes an inch closer across the floor. The house runs on consequences. You just demonstrated the wrong one.",
+           "explanation":"The Law of Effect says satisfying outcomes strengthen the S-R association while annoying outcomes weaken it. Reinforcement is what drives behavior,not insight, not goals, just consequences."
           },
           {
            "id":"u2-c1-q3",
@@ -790,11 +790,11 @@ export const units = [
                "correct": true
               },
               {
-               "text":"There is no meaningful difference — they are the same procedure with different names",
+               "text":"There is no meaningful difference,they are the same procedure with different names",
                "correct": false
               }
             ],
-           "wrongStory":"Something cold wraps around your ankle. You thrash free of it — that was escape. Had you learned to avoid that corner of the room entirely, you'd never have felt it. You felt it. You learned the hard way.",
+           "wrongStory":"Something cold wraps around your ankle. You thrash free of it,that was escape. Had you learned to avoid that corner of the room entirely, you'd never have felt it. You felt it. You learned the hard way.",
            "explanation":"In escape learning, the animal performs a behavior to stop something aversive already happening. In avoidance learning, the animal learns to act before the aversive event occurs, preventing it entirely."
           },
           {
@@ -818,7 +818,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A portrait on the parlor wall shifts — the painted figure now faces away from you, cowering in the corner of its frame. It doesn't know what it did wrong. It only knows that something in this room is dangerous. That's the problem with misdirected punishment.",
+           "wrongStory":"A portrait on the parlor wall shifts,the painted figure now faces away from you, cowering in the corner of its frame. It doesn't know what it did wrong. It only knows that something in this room is dangerous. That's the problem with misdirected punishment.",
            "explanation":"Punishment requires the animal to correctly identify which behavior caused the aversive outcome. If the dog associates the punishment with the owner rather than the urinating behavior, fear of the owner develops instead of suppression of the unwanted behavior."
           }
         ],
@@ -831,7 +831,7 @@ export const units = [
       },
       {
        "id":"u2-c2",
-       "title":"Chamber II - The Nursery of Shaping",
+       "title":"Chamber II,The Nursery of Shaping",
        "intro":"A music box clicks in the corner. Painted panels mark each step toward a behavior that hasn't happened yet. This room covers shaping and what makes a reinforcer work.",
        "background":"/images/unit2/chamber-2.jpg",
        "questions": [
@@ -856,7 +856,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The painted figure on the nursery wall freezes at frame one and never advances. The gold stars above the later frames go dark. You can't skip the steps — you can't wait for the whole behavior to appear fully formed either. Each approximation must be earned.",
+           "wrongStory":"The painted figure on the nursery wall freezes at frame one and never advances. The gold stars above the later frames go dark. You can't skip the steps,you can't wait for the whole behavior to appear fully formed either. Each approximation must be earned.",
            "explanation":"Shaping requires reinforcing progressively closer approximations to the target behavior. \"Differentially\" means only the current best approximation is reinforced. \"Successively\" means the standard keeps shifting toward the goal."
           },
           {
@@ -880,7 +880,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The alphabet blocks on the floor scramble themselves into a meaningless jumble. You hear the rocking horse creak faster — agitated. Without knowing where you're going and how you'll get there, the shaping process collapses into chaos.",
+           "wrongStory":"The alphabet blocks on the floor scramble themselves into a meaningless jumble. You hear the rocking horse creak faster,agitated. Without knowing where you're going and how you'll get there, the shaping process collapses into chaos.",
            "explanation":"You must know your destination first (target behavior), then plan the route (small steps), then select your fuel (reinforcer), then begin rewarding (reinforce approximate behavior), and finally raise the bar incrementally (increase requirement)."
           },
           {
@@ -904,8 +904,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The music box on the shelf clicks once — then silence. No food follows. The rocking horse slows to a stop. A secondary reinforcer is only as powerful as the primary one it was built on. Without the pairing, the click is just a sound in a haunted nursery.",
-           "explanation":"A secondary reinforcer acquires its power by being paired with a primary reinforcer like food. The clicker becomes a CS; food is the US. Its advantage is precision — it can mark the exact moment of the correct behavior, before food can even be fumbled out of a pocket."
+           "wrongStory":"The music box on the shelf clicks once,then silence. No food follows. The rocking horse slows to a stop. A secondary reinforcer is only as powerful as the primary one it was built on. Without the pairing, the click is just a sound in a haunted nursery.",
+           "explanation":"A secondary reinforcer acquires its power by being paired with a primary reinforcer like food. The clicker becomes a CS; food is the US. Its advantage is precision,it can mark the exact moment of the correct behavior, before food can even be fumbled out of a pocket."
           },
           {
            "id":"u2-c2-q4",
@@ -924,12 +924,12 @@ export const units = [
                "correct": true
               },
               {
-               "text":"Shaping was not used — Dicky simply received praise after wearing glasses for a full day immediately",
+               "text":"Shaping was not used,Dicky simply received praise after wearing glasses for a full day immediately",
                "correct": false
               }
             ],
-           "wrongStory":"A child-sized rocking chair in the corner begins rocking on its own — faster and faster. The glasses sitting on the seat get thrown to the floor. You got the contingencies inverted. Reinforcement increases behavior. Punishment decreases it. Don't cross the wires in a haunted house.",
-           "explanation":"Dicky received positive reinforcement (food) for wearing glasses, and negative punishment (removal from the activity — timeout) for throwing or removing them. Shaping was central: he was first reinforced just for touching the frames, then progressively for more complete wearing."
+           "wrongStory":"A child-sized rocking chair in the corner begins rocking on its own,faster and faster. The glasses sitting on the seat get thrown to the floor. You got the contingencies inverted. Reinforcement increases behavior. Punishment decreases it. Don't cross the wires in a haunted house.",
+           "explanation":"Dicky received positive reinforcement (food) for wearing glasses, and negative punishment (removal from the activity,timeout) for throwing or removing them. Shaping was central: he was first reinforced just for touching the frames, then progressively for more complete wearing."
           },
           {
            "id":"u2-c2-q5",
@@ -944,7 +944,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"If the training environment was aversive, being sent to timeout meant escaping something worse — making throwing glasses a reinforced escape behavior",
+               "text":"If the training environment was aversive, being sent to timeout meant escaping something worse,making throwing glasses a reinforced escape behavior",
                "correct": true
               },
               {
@@ -952,8 +952,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The nursery door swings open to reveal a softly lit hallway — warm, quiet, nothing expected of you. You feel the pull of it immediately. If this room is more frightening than the hallway, leaving isn't punishment. It's relief. You just taught yourself to misbehave.",
-           "explanation":"Negative reinforcement strengthens behavior by removing something aversive. If Dicky found the training environment more unpleasant than the timeout room, then throwing glasses → escape from training became a negatively reinforced behavior — increasing glass-throwing rather than decreasing it."
+           "wrongStory":"The nursery door swings open to reveal a softly lit hallway,warm, quiet, nothing expected of you. You feel the pull of it immediately. If this room is more frightening than the hallway, leaving isn't punishment. It's relief. You just taught yourself to misbehave.",
+           "explanation":"Negative reinforcement strengthens behavior by removing something aversive. If Dicky found the training environment more unpleasant than the timeout room, then throwing glasses → escape from training became a negatively reinforced behavior,increasing glass-throwing rather than decreasing it."
           }
         ],
        "relic": {
@@ -965,7 +965,7 @@ export const units = [
       },
       {
        "id":"u2-c3",
-       "title":"Chamber III - The Study of Outcomes",
+       "title":"Chamber III,The Study of Outcomes",
        "intro":"The bookshelves are stacked with studies about what animals actually know when they press a lever. Habits versus goals. The room will make you pick a side.",
        "background":"/images/unit2/chamber-3.jpg",
        "questions": [
@@ -974,7 +974,7 @@ export const units = [
            "text":"Tinklepaugh (1928) secretly replaced an expected banana with lettuce while a monkey watched the cup being baited. What happened and what does it challenge?",
            "answers": [
               {
-               "text":"The monkey ate the lettuce without issue — proving animals do not encode specific outcomes",
+               "text":"The monkey ate the lettuce without issue,proving animals do not encode specific outcomes",
                "correct": false
               },
               {
@@ -990,8 +990,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The oil lamp on the desk flickers. In the glass dome, the two food dishes swap contents silently. The monkey in your mind reaches under the cup and recoils — something was taken. S-R theory says it wouldn't care. It cared deeply.",
-           "explanation":"The monkey's agitation and searching showed it had formed a specific expectation of the outcome. S-R theory predicts no behavioral difference since outcomes aren't encoded — but the monkey clearly knew what it had been promised. This is expectancy violation."
+           "wrongStory":"The oil lamp on the desk flickers. In the glass dome, the two food dishes swap contents silently. The monkey in your mind reaches under the cup and recoils,something was taken. S-R theory says it wouldn't care. It cared deeply.",
+           "explanation":"The monkey's agitation and searching showed it had formed a specific expectation of the outcome. S-R theory predicts no behavioral difference since outcomes aren't encoded,but the monkey clearly knew what it had been promised. This is expectancy violation."
           },
           {
            "id":"u2-c3-q2",
@@ -1014,7 +1014,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The chalkboard behind the desk erases itself. The ghost of a disappointed rat drags its feet across the floorboard above you — slow, sullen, robbed of what it expected. The house knows the difference between getting what you deserve and getting what you were promised.",
+           "wrongStory":"The chalkboard behind the desk erases itself. The ghost of a disappointed rat drags its feet across the floorboard above you,slow, sullen, robbed of what it expected. The house knows the difference between getting what you deserve and getting what you were promised.",
            "explanation":"Depression and elation effects show animals have expectations about reward magnitude. When reality violates expectation, behavior shifts beyond what S-R predicts. Disappointed rats run slower than rats who were never promised more. Elated rats run faster than those who were never promised less."
           },
           {
@@ -1038,7 +1038,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"Both levers in the glass dome glow red simultaneously. That is what S-R theory predicts — the rat doesn't know what it's working for, so both levers suffer equally. But only one lever should dim. The rat knows exactly which one leads where.",
+           "wrongStory":"Both levers in the glass dome glow red simultaneously. That is what S-R theory predicts,the rat doesn't know what it's working for, so both levers suffer equally. But only one lever should dim. The rat knows exactly which one leads where.",
            "explanation":"By training R1→O1 and R2→O2, then devaluing O1 alone (pairing it with illness), researchers tested whether R1 specifically would decrease. It did. This proves R-O encoding: the animal knows which behavior leads to which outcome and adjusts accordingly."
           },
           {
@@ -1054,16 +1054,16 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Three-year-olds reduced responding to the devalued cartoon; one-year-olds responded equally to both — suggesting habit learning in younger children",
+               "text":"Three-year-olds reduced responding to the devalued cartoon; one-year-olds responded equally to both,suggesting habit learning in younger children",
                "correct": true
               },
               {
-               "text":"No age group was sensitive to outcome devaluation — all children behaved like habit learners",
+               "text":"No age group was sensitive to outcome devaluation,all children behaved like habit learners",
                "correct": false
               }
             ],
-           "wrongStory":"Two portraits hang on the study wall — a toddler and a three-year-old. The toddler keeps pressing the same button over and over regardless of what comes out. The three-year-old pauses, considers, and presses the other one. The house recognizes the difference. Do you?",
-           "explanation":"Three-year-olds showed outcome devaluation sensitivity — they pressed the devalued cartoon's icon less. One-year-olds pressed both equally, suggesting habitual S-R behavior. Goal-directed R-O learning appears to emerge between ages two and three."
+           "wrongStory":"Two portraits hang on the study wall,a toddler and a three-year-old. The toddler keeps pressing the same button over and over regardless of what comes out. The three-year-old pauses, considers, and presses the other one. The house recognizes the difference. Do you?",
+           "explanation":"Three-year-olds showed outcome devaluation sensitivity,they pressed the devalued cartoon's icon less. One-year-olds pressed both equally, suggesting habitual S-R behavior. Goal-directed R-O learning appears to emerge between ages two and three."
           },
           {
            "id":"u2-c3-q5",
@@ -1074,11 +1074,11 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The result is explained by generalization — S1 and S2 were not distinct enough",
+               "text":"The result is explained by generalization,S1 and S2 were not distinct enough",
                "correct": false
               },
               {
-               "text":"Animals encode outcome identity — S1 activates the O1 representation, which selects R1, proving S-O and R-O associations without any direct S-R link",
+               "text":"Animals encode outcome identity,S1 activates the O1 representation, which selects R1, proving S-O and R-O associations without any direct S-R link",
                "correct": true
               },
               {
@@ -1086,8 +1086,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The oil lamp sputters. Two books fall from the shelves — one labeled S1, one labeled R1. They were never on the same shelf. They were never shelved together. Yet something connected them. The outcome was the bridge, invisible but real, running beneath the floorboards of this study.",
-           "explanation":"Because S1 and R1 were never directly paired — only linked through their shared association with O1 — the transfer of responding proves outcome identity encoding. The animal uses O1 as a mental bridge. This is powerful evidence for S-O and R-O associations over simple S-R theory."
+           "wrongStory":"The oil lamp sputters. Two books fall from the shelves,one labeled S1, one labeled R1. They were never on the same shelf. They were never shelved together. Yet something connected them. The outcome was the bridge, invisible but real, running beneath the floorboards of this study.",
+           "explanation":"Because S1 and R1 were never directly paired,only linked through their shared association with O1,the transfer of responding proves outcome identity encoding. The animal uses O1 as a mental bridge. This is powerful evidence for S-O and R-O associations over simple S-R theory."
           }
         ],
        "relic": {
@@ -1099,8 +1099,8 @@ export const units = [
       },
       {
        "id":"u2-c4",
-       "title":"Chamber IV - The Basement of Choice",
-       "intro":"A pendulum ticks through the delay values. Two levers wait in opposite corners. This room is about how organisms choose — matching, discounting, and what actually drives behavior.",
+       "title":"Chamber IV,The Basement of Choice",
+       "intro":"A pendulum ticks through the delay values. Two levers wait in opposite corners. This room is about how organisms choose,matching, discounting, and what actually drives behavior.",
        "background":"/images/unit2/chamber-4.jpg",
        "questions": [
           {
@@ -1124,7 +1124,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"One of the iron levers slams down on its own — the basement commits entirely to one side. That would be maximizing, not matching. The pendulum keeps swinging evenly. The law is about proportion, not domination.",
+           "wrongStory":"One of the iron levers slams down on its own,the basement commits entirely to one side. That would be maximizing, not matching. The pendulum keeps swinging evenly. The law is about proportion, not domination.",
            "explanation":"The Matching Law states B1/(B1+B2) = R1/(R1+R2). Responding is distributed proportionally to relative reinforcement rate. If the left lever produces 75% of total reinforcements, roughly 75% of responses will go there."
           },
           {
@@ -1140,7 +1140,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The individual steeply devalues delayed rewards — a high k means strong impulsivity",
+               "text":"The individual steeply devalues delayed rewards,a high k means strong impulsivity",
                "correct": true
               },
               {
@@ -1148,8 +1148,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The pendulum swings past the \"5 minutes\" mark on the clock face. You feel the reward in the iron chest losing its pull with every swing. A high k means every tick of that pendulum costs you more than it should. The chest isn't getting smaller — your patience is.",
-           "explanation":"In v = V / (1 + kD), a high k makes the denominator grow rapidly with delay, causing v to drop steeply. High-k individuals place far less value on future rewards — associated with addiction, gambling, and impulsive behavior."
+           "wrongStory":"The pendulum swings past the \"5 minutes\" mark on the clock face. You feel the reward in the iron chest losing its pull with every swing. A high k means every tick of that pendulum costs you more than it should. The chest isn't getting smaller,your patience is.",
+           "explanation":"In v = V / (1 + kD), a high k makes the denominator grow rapidly with delay, causing v to drop steeply. High-k individuals place far less value on future rewards,associated with addiction, gambling, and impulsive behavior."
           },
           {
            "id":"u2-c4-q3",
@@ -1172,8 +1172,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The clock face flickers to \"zero delay.\" The formula breaks. The denominator vanishes. The pendulum swings through the wall and disappears. Without the 1, the math collapses when there is no wait — and becomes absurd when k is tiny. The 1 keeps the house standing.",
-           "explanation":"The +1 ensures (1) that when D = 0, v = V — the reward is worth its full value with no delay; and (2) prevents v from exceeding V when k is very small, which would nonsensically mean waiting makes the reward more valuable."
+           "wrongStory":"The clock face flickers to \"zero delay.\" The formula breaks. The denominator vanishes. The pendulum swings through the wall and disappears. Without the 1, the math collapses when there is no wait,and becomes absurd when k is tiny. The 1 keeps the house standing.",
+           "explanation":"The +1 ensures (1) that when D = 0, v = V,the reward is worth its full value with no delay; and (2) prevents v from exceeding V when k is very small, which would nonsensically mean waiting makes the reward more valuable."
           },
           {
            "id":"u2-c4-q4",
@@ -1196,32 +1196,32 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The iron chest in the corner rattles — inside, you can hear the sound of a chair scraping against a floor. Not candy. Not television. The most powerful reward for these patients was the simplest, most passive thing in the world. The Premack Principle doesn't care how glamorous the reinforcer is — only how probable.",
-           "explanation":"Patients were unmotivated by traditional rewards. Researchers identified sitting quietly as their highest-probability behavior and made it contingent on completing wire-stripping work. This proved reinforcement is relative — any HPB can reinforce any LPB, even doing nothing."
+           "wrongStory":"The iron chest in the corner rattles,inside, you can hear the sound of a chair scraping against a floor. Not candy. Not television. The most powerful reward for these patients was the simplest, most passive thing in the world. The Premack Principle doesn't care how glamorous the reinforcer is,only how probable.",
+           "explanation":"Patients were unmotivated by traditional rewards. Researchers identified sitting quietly as their highest-probability behavior and made it contingent on completing wire-stripping work. This proved reinforcement is relative,any HPB can reinforce any LPB, even doing nothing."
           },
           {
            "id":"u2-c4-q5",
            "text":"In the Lepper, Greene & Nisbett overjustification study, which group of children showed the sharpest decline in later drawing behavior?",
            "answers": [
               {
-               "text":"The unexpected reward group — they were confused by receiving an unearned medal",
+               "text":"The unexpected reward group,they were confused by receiving an unearned medal",
                "correct": false
               },
               {
-               "text":"The no-reward group — they felt excluded and became disinterested",
+               "text":"The no-reward group,they felt excluded and became disinterested",
                "correct": false
               },
               {
-               "text":"The expected reward group — promised a medal before drawing, they shifted motivation from enjoyment to external gain",
+               "text":"The expected reward group,promised a medal before drawing, they shifted motivation from enjoyment to external gain",
                "correct": true
               },
               {
-               "text":"All three groups declined equally — any reward undermines intrinsic motivation",
+               "text":"All three groups declined equally,any reward undermines intrinsic motivation",
                "correct": false
               }
             ],
-           "wrongStory":"A child's crayon rolls across the basement floor and stops at your feet. On the wall, a medal hangs on a nail above an empty drawing easel. The drawing stopped when the medal was promised before it started. Now there is no medal — and no drawing. The basement remembers what you said you'd give.",
-           "explanation":"Only the expected reward group showed significant decline in free-choice drawing. The unexpected reward group showed no decline — the medal came as a surprise after. The problem is specifically contingent, pre-announced rewards for already-enjoyable activities: they shift perceived motivation from \"I like this\" to \"I'm doing this for the reward.\""
+           "wrongStory":"A child's crayon rolls across the basement floor and stops at your feet. On the wall, a medal hangs on a nail above an empty drawing easel. The drawing stopped when the medal was promised before it started. Now there is no medal,and no drawing. The basement remembers what you said you'd give.",
+           "explanation":"Only the expected reward group showed significant decline in free-choice drawing. The unexpected reward group showed no decline,the medal came as a surprise after. The problem is specifically contingent, pre-announced rewards for already-enjoyable activities: they shift perceived motivation from \"I like this\" to \"I'm doing this for the reward.\""
           }
         ],
        "relic": {
@@ -1233,8 +1233,8 @@ export const units = [
       },
       {
        "id":"u2-c5",
-       "title":"Chamber V - The Attic of Extinction",
-       "intro":"Dust and old case files cover the attic floor. Renewal, reinstatement, spontaneous recovery — all documented up here. Explain them correctly and find the exit.",
+       "title":"Chamber V,The Attic of Extinction",
+       "intro":"Dust and old case files cover the attic floor. Renewal, reinstatement, spontaneous recovery,all documented up here. Explain them correctly and find the exit.",
        "background":"/images/unit2/chamber-5.jpg",
        "questions": [
           {
@@ -1258,8 +1258,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A white sheet across the room lifts on its own. Underneath: a rocking chair, moving. The attic remembers this room. Extinction happened somewhere else — in another house, another context. Coming back here pulled the fear right out from under the sheet.",
-           "explanation":"The renewal effect: conditioning in A → extinction in B → test in A → fear returns. Extinction does not erase the original CS-US memory. It creates a new, context-specific inhibitory memory. The original learning is always there — it just gets covered."
+           "wrongStory":"A white sheet across the room lifts on its own. Underneath: a rocking chair, moving. The attic remembers this room. Extinction happened somewhere else,in another house, another context. Coming back here pulled the fear right out from under the sheet.",
+           "explanation":"The renewal effect: conditioning in A → extinction in B → test in A → fear returns. Extinction does not erase the original CS-US memory. It creates a new, context-specific inhibitory memory. The original learning is always there,it just gets covered."
           },
           {
            "id":"u2-c5-q2",
@@ -1282,23 +1282,23 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"Every pigeon carving in the attic rafters has its eyes closed. Nothing is happening in the session. S1 and S2 sit ignored — but is that extinction, or are they just asleep up there? Without a live control, you can't tell the difference between learning and napping.",
-           "explanation":"Without S3+, pigeons might stop responding simply because nothing interesting was happening — behavioral fatigue or disengagement. S3+ kept them active and responding, ensuring that reduced responding to S1 and S2 reflected genuine extinction learning."
+           "wrongStory":"Every pigeon carving in the attic rafters has its eyes closed. Nothing is happening in the session. S1 and S2 sit ignored,but is that extinction, or are they just asleep up there? Without a live control, you can't tell the difference between learning and napping.",
+           "explanation":"Without S3+, pigeons might stop responding simply because nothing interesting was happening,behavioral fatigue or disengagement. S3+ kept them active and responding, ensuring that reduced responding to S1 and S2 reflected genuine extinction learning."
           },
           {
            "id":"u2-c5-q3",
            "text":"A reinstatement study showed that an unsignaled shock in the same context as extinction restored more fear to the CS than a shock in a different context. Which theory best explains this?",
            "answers": [
               {
-               "text":"Context summation — the excitatory context adds its associative strength to CS fear regardless of shock location",
+               "text":"Context summation,the excitatory context adds its associative strength to CS fear regardless of shock location",
                "correct": false
               },
               {
-               "text":"Bouton's ambiguity theory — the extinguished CS has two memories; an excitatory context retrieves the CS-US memory rather than the CS-no US memory",
+               "text":"Bouton's ambiguity theory,the extinguished CS has two memories; an excitatory context retrieves the CS-US memory rather than the CS-no US memory",
                "correct": true
               },
               {
-               "text":"Sensitization — the shock raises overall arousal and amplifies all responses equally across contexts",
+               "text":"Sensitization,the shock raises overall arousal and amplifies all responses equally across contexts",
                "correct": false
               },
               {
@@ -1306,8 +1306,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A dusty mirror in the attic shows two reflections of you — one afraid, one calm. Same face. Same CS. Depending on where you're standing in this attic, the mirror shows a different one. The context isn't adding fear on top of fear. It's choosing which memory to show you.",
-           "explanation":"The results did not support context summation, which would predict equal differences across both reinstatement groups. Bouton's theory better explains it: the extinguished CS is ambiguous — it has both a CS-US memory and a CS-no US memory. Context determines which one is retrieved. An excitatory context pulls out the fear."
+           "wrongStory":"A dusty mirror in the attic shows two reflections of you,one afraid, one calm. Same face. Same CS. Depending on where you're standing in this attic, the mirror shows a different one. The context isn't adding fear on top of fear. It's choosing which memory to show you.",
+           "explanation":"The results did not support context summation, which would predict equal differences across both reinstatement groups. Bouton's theory better explains it: the extinguished CS is ambiguous,it has both a CS-US memory and a CS-no US memory. Context determines which one is retrieved. An excitatory context pulls out the fear."
           },
           {
            "id":"u2-c5-q4",
@@ -1322,7 +1322,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Extinction creates response-specific inhibition — the noise became a signal to not press the lever, selectively suppressing R1 and releasing R2",
+               "text":"Extinction creates response-specific inhibition,the noise became a signal to not press the lever, selectively suppressing R1 and releasing R2",
                "correct": true
               },
               {
@@ -1330,8 +1330,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"Both levers on the attic wall go cold and dark at once. A chain in the corner goes untouched. That would be general extinction — but the noise was only present during lever extinction. Pull the chain. The chain was never covered by that particular sheet.",
-           "explanation":"Extinction creates stimulus-specific inhibition of specific responses. The noise, present during lever extinction, became a signal for \"don't lever press.\" When noise appeared, lever pressing dropped and chain pulling rose — inhibiting one response releases competitive suppression on the other, mirroring Pavlovian conditioned inhibition."
+           "wrongStory":"Both levers on the attic wall go cold and dark at once. A chain in the corner goes untouched. That would be general extinction,but the noise was only present during lever extinction. Pull the chain. The chain was never covered by that particular sheet.",
+           "explanation":"Extinction creates stimulus-specific inhibition of specific responses. The noise, present during lever extinction, became a signal for \"don't lever press.\" When noise appeared, lever pressing dropped and chain pulling rose,inhibiting one response releases competitive suppression on the other, mirroring Pavlovian conditioned inhibition."
           },
           {
            "id":"u2-c5-q5",
@@ -1354,8 +1354,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"You extinguished your fear of this attic in one session, on one night. You walked out feeling free. Then you came back in through the front door — a different context, a different night. The sheet lifted on its own. One session in one house was never going to be enough.",
-           "explanation":"Because extinction is context-specific, a single context leaves the original memory fully intact everywhere else. Multiple contexts reduce renewal. Spaced sessions produce more durable decrements. Attention to reminder cues reduces reinstatement. No single method eliminates all relapse risk — the original learning is never erased, only covered."
+           "wrongStory":"You extinguished your fear of this attic in one session, on one night. You walked out feeling free. Then you came back in through the front door,a different context, a different night. The sheet lifted on its own. One session in one house was never going to be enough.",
+           "explanation":"Because extinction is context-specific, a single context leaves the original memory fully intact everywhere else. Multiple contexts reduce renewal. Spaced sessions produce more durable decrements. Attention to reminder cues reduces reinstatement. No single method eliminates all relapse risk,the original learning is never erased, only covered."
           }
         ],
        "relic": {
@@ -1381,7 +1381,7 @@ export const units = [
    "chambers": [
       {
        "id":"u3-c1",
-       "title":"Section I - Docking Bay of Consequences",
+       "title":"Section I,Docking Bay of Consequences",
        "intro":"Holographic puzzle boxes line the docking bay walls, each one running a punishment protocol. Get through the consequence theory and the blast door opens.",
        "background":"/images/unit3/chamber-1.jpg",
        "questions": [
@@ -1398,7 +1398,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"A strengthened stimulus-response association — a habit — with no encoding of the outcome itself",
+               "text":"A strengthened stimulus-response association,a habit,with no encoding of the outcome itself",
                "correct": true
               },
               {
@@ -1406,7 +1406,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The holographic cat in the nearest cage flickers and shakes its head. A red light pulses on the console. The alien translation protocol emits a sound that is unmistakably disappointment. S-R theory says the reward builds the habit — it is not part of what is stored.",
+           "wrongStory":"The holographic cat in the nearest cage flickers and shakes its head. A red light pulses on the console. The alien translation protocol emits a sound that is unmistakably disappointment. S-R theory says the reward builds the habit,it is not part of what is stored.",
            "explanation":"In S-R theory, the satisfying outcome strengthens the bond between stimulus and response, but the animal encodes nothing about the outcome itself. The reward is the engine of habit formation, not the content of what is learned."
           },
           {
@@ -1422,7 +1422,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Punishment was largely ineffective — total lever presses across extinction were nearly identical between punished and unpunished groups",
+               "text":"Punishment was largely ineffective,total lever presses across extinction were nearly identical between punished and unpunished groups",
                "correct": true
               },
               {
@@ -1430,8 +1430,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A mechanical arm extends from the wall and taps your hand lightly. You flinch — then keep doing exactly what you were doing. Skinner's rats felt the same way. The slap suppressed briefly. The total count barely changed.",
-           "explanation":"Skinner found that rats whose paws were slapped during extinction pressed the lever just as many times overall as unslapped controls. The punishment temporarily suppressed behavior but did not reduce the total amount — suggesting it interfered emotionally rather than eliminating the underlying association."
+           "wrongStory":"A mechanical arm extends from the wall and taps your hand lightly. You flinch,then keep doing exactly what you were doing. Skinner's rats felt the same way. The slap suppressed briefly. The total count barely changed.",
+           "explanation":"Skinner found that rats whose paws were slapped during extinction pressed the lever just as many times overall as unslapped controls. The punishment temporarily suppressed behavior but did not reduce the total amount,suggesting it interfered emotionally rather than eliminating the underlying association."
           },
           {
            "id":"u3-c1-q3",
@@ -1454,7 +1454,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The alien console logs your response and displays a timeline — punishment delivered 10 seconds late, at minimal intensity. The holographic rat keeps pressing. Late and weak is barely a consequence at all. The ship's behavioral database is unimpressed.",
+           "wrongStory":"The alien console logs your response and displays a timeline,punishment delivered 10 seconds late, at minimal intensity. The holographic rat keeps pressing. Late and weak is barely a consequence at all. The ship's behavioral database is unimpressed.",
            "explanation":"Camp et al. found that punishment is most effective when swift (delivered immediately) and sufficient (intense enough to matter). Delayed or weak punishment produces far less suppression of the target behavior."
           },
           {
@@ -1466,11 +1466,11 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Punishment is only ineffective in nonhuman animals — it works reliably in humans",
+               "text":"Punishment is only ineffective in nonhuman animals,it works reliably in humans",
                "correct": false
               },
               {
-               "text":"The punished behavior is suppressed but not forgotten — it returns when the punishing agent is absent, and the punisher may become a discriminative stimulus for when it is safe to misbehave",
+               "text":"The punished behavior is suppressed but not forgotten,it returns when the punishing agent is absent, and the punisher may become a discriminative stimulus for when it is safe to misbehave",
                "correct": true
               },
               {
@@ -1478,8 +1478,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"A child's hologram appears on the docking bay wall — behaving perfectly while a stern figure watches. The figure turns away. The behavior comes back immediately. The alien ship has seen this exact pattern before. Suppression is not elimination.",
-           "explanation":"Punished behavior is suppressed, not erased. When the punishing agent is absent, the behavior returns. The punisher becomes an Sd — a signal that punishment is imminent — teaching the organism when it is safe to perform the behavior again rather than eliminating it."
+           "wrongStory":"A child's hologram appears on the docking bay wall,behaving perfectly while a stern figure watches. The figure turns away. The behavior comes back immediately. The alien ship has seen this exact pattern before. Suppression is not elimination.",
+           "explanation":"Punished behavior is suppressed, not erased. When the punishing agent is absent, the behavior returns. The punisher becomes an Sd,a signal that punishment is imminent,teaching the organism when it is safe to perform the behavior again rather than eliminating it."
           },
           {
            "id":"u3-c1-q5",
@@ -1494,16 +1494,16 @@ export const units = [
                "correct": false
               },
               {
-               "text":"The punishing event produces an emotional response that interferes with the behavior — the animal is too upset to perform it, not unable to",
+               "text":"The punishing event produces an emotional response that interferes with the behavior,the animal is too upset to perform it, not unable to",
                "correct": true
               },
               {
-               "text":"Punishment works identically to extinction — both reduce behavior by removing the reinforcer",
+               "text":"Punishment works identically to extinction,both reduce behavior by removing the reinforcer",
                "correct": false
               }
             ],
-           "wrongStory":"A shock crackles somewhere deep in the ship. The holographic rat freezes — not because it forgot how to press the lever, but because something emotional has taken over entirely. The behavior is still in there. Fear is just sitting on top of it.",
-           "explanation":"Conditioned suppression theory holds that punishment produces fear or emotional disruption that interferes with the behavior. The S-R association is not weakened — the animal is simply too emotionally activated to perform the response. Remove the punishment, and the behavior typically returns."
+           "wrongStory":"A shock crackles somewhere deep in the ship. The holographic rat freezes,not because it forgot how to press the lever, but because something emotional has taken over entirely. The behavior is still in there. Fear is just sitting on top of it.",
+           "explanation":"Conditioned suppression theory holds that punishment produces fear or emotional disruption that interferes with the behavior. The S-R association is not weakened,the animal is simply too emotionally activated to perform the response. Remove the punishment, and the behavior typically returns."
           }
         ],
        "relic": {
@@ -1515,7 +1515,7 @@ export const units = [
       },
       {
        "id":"u3-c2",
-       "title":"Section II - Avoidance Engine Room",
+       "title":"Section II,Avoidance Engine Room",
        "intro":"Warning lights cycle. Turbines hum. This sector covers fear signals, shock reduction, and how ERP actually works.",
        "background":"/images/unit3/chamber-2.jpg",
        "questions": [
@@ -1540,8 +1540,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The warning lights flash again. You stand perfectly still and nothing happens — but you don't know why. The two-process theory requires you to understand both why the warning signal triggers fear AND why responding to it feels rewarding. You only named one half of the engine.",
-           "explanation":"Two-Process Theory says avoidance works via (1) classical conditioning — the warning signal (CS) becomes associated with shock (US), producing fear; and (2) instrumental conditioning — the avoidance response is reinforced by the reduction of that fear when the warning signal is terminated or avoided."
+           "wrongStory":"The warning lights flash again. You stand perfectly still and nothing happens,but you don't know why. The two-process theory requires you to understand both why the warning signal triggers fear AND why responding to it feels rewarding. You only named one half of the engine.",
+           "explanation":"Two-Process Theory says avoidance works via (1) classical conditioning,the warning signal (CS) becomes associated with shock (US), producing fear; and (2) instrumental conditioning,the avoidance response is reinforced by the reduction of that fear when the warning signal is terminated or avoided."
           },
           {
            "id":"u3-c2-q2",
@@ -1556,7 +1556,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Highly trained avoiders showed less fear to the warning stimulus than moderately trained animals — fear and avoidance were not fully correlated",
+               "text":"Highly trained avoiders showed less fear to the warning stimulus than moderately trained animals,fear and avoidance were not fully correlated",
                "correct": true
               },
               {
@@ -1564,12 +1564,12 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The warning light flashes and a highly trained crew member of the alien ship walks past it without flinching — no fear response at all. Yet they clearly know to avoid what it signals. If fear drives avoidance, the most experienced avoiders should be the most afraid. They aren't.",
-           "explanation":"Kamin et al. found that fear (measured by suppression ratio) peaked at moderate training levels and then decreased in highly trained animals — even as avoidance responding remained strong. This decoupling of fear and avoidance challenges the Two-Process claim that fear is the direct motivator of avoidance."
+           "wrongStory":"The warning light flashes and a highly trained crew member of the alien ship walks past it without flinching,no fear response at all. Yet they clearly know to avoid what it signals. If fear drives avoidance, the most experienced avoiders should be the most afraid. They aren't.",
+           "explanation":"Kamin et al. found that fear (measured by suppression ratio) peaked at moderate training levels and then decreased in highly trained animals,even as avoidance responding remained strong. This decoupling of fear and avoidance challenges the Two-Process claim that fear is the direct motivator of avoidance."
           },
           {
            "id":"u3-c2-q3",
-           "text":"Herrnstein and Hineline (1966) trained rats to press a lever that reduced — but did not eliminate — shock probability. What did this demonstrate about avoidance?",
+           "text":"Herrnstein and Hineline (1966) trained rats to press a lever that reduced,but did not eliminate,shock probability. What did this demonstrate about avoidance?",
            "answers": [
               {
                "text":"Avoidance requires a discrete warning signal to be learned",
@@ -1588,8 +1588,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The turbines hum. Shocks come anyway — just less often. The alien engineers watch as the rat keeps pressing despite never achieving full safety. The reduction alone was enough. The ship logs this: \"Partial relief is still relief.\"",
-           "explanation":"Rats learned to press a lever that reduced shock probability from .3 to .1 — with no warning signal and no complete escape. This shows animals can learn avoidance-like behavior purely through reduction in aversive event rate, challenging Two-Process Theory's requirement for a discrete fear-inducing CS."
+           "wrongStory":"The turbines hum. Shocks come anyway,just less often. The alien engineers watch as the rat keeps pressing despite never achieving full safety. The reduction alone was enough. The ship logs this: \"Partial relief is still relief.\"",
+           "explanation":"Rats learned to press a lever that reduced shock probability from .3 to .1,with no warning signal and no complete escape. This shows animals can learn avoidance-like behavior purely through reduction in aversive event rate, challenging Two-Process Theory's requirement for a discrete fear-inducing CS."
           },
           {
            "id":"u3-c2-q4",
@@ -1604,7 +1604,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"For the group where the tone was contingent on the avoidance response, the tone suppressed further avoidance — the animal felt safe and stopped responding",
+               "text":"For the group where the tone was contingent on the avoidance response, the tone suppressed further avoidance,the animal felt safe and stopped responding",
                "correct": true
               },
               {
@@ -1612,8 +1612,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The engine room's warning light clicks off the moment you step back. You immediately relax and stop moving. That safety signal told you the threat was gone — so you stopped avoiding. The tone did the same thing to the rats. Safety is its own reinforcer.",
-           "explanation":"When the tone was contingent on the avoidance response (group A'), it became a conditioned inhibitor — a safety signal — and suppressed further avoidance responding. The control group showed no change. This supports the idea that stimuli associated with avoidance responses become safety signals, making the avoidance response self-reinforcing through conditioned inhibition of fear."
+           "wrongStory":"The engine room's warning light clicks off the moment you step back. You immediately relax and stop moving. That safety signal told you the threat was gone,so you stopped avoiding. The tone did the same thing to the rats. Safety is its own reinforcer.",
+           "explanation":"When the tone was contingent on the avoidance response (group A'), it became a conditioned inhibitor,a safety signal,and suppressed further avoidance responding. The control group showed no change. This supports the idea that stimuli associated with avoidance responses become safety signals, making the avoidance response self-reinforcing through conditioned inhibition of fear."
           },
           {
            "id":"u3-c2-q5",
@@ -1636,8 +1636,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The warning lights flash and you immediately start pressing every button in sight. Nothing helps. The ship observes: you are performing the compulsion. ERP requires you to let the lights flash — and do nothing — until you learn that the feared outcome never comes.",
-           "explanation":"ERP involves deliberate exposure to obsession-triggering stimuli (Exposure) while choosing not to perform the compulsive ritual (Response Prevention). The patient learns through experience that the feared consequence does not occur when the ritual is omitted — extinguishing the avoidance behavior through non-reinforcement."
+           "wrongStory":"The warning lights flash and you immediately start pressing every button in sight. Nothing helps. The ship observes: you are performing the compulsion. ERP requires you to let the lights flash,and do nothing,until you learn that the feared outcome never comes.",
+           "explanation":"ERP involves deliberate exposure to obsession-triggering stimuli (Exposure) while choosing not to perform the compulsive ritual (Response Prevention). The patient learns through experience that the feared consequence does not occur when the ritual is omitted,extinguishing the avoidance behavior through non-reinforcement."
           }
         ],
        "relic": {
@@ -1649,7 +1649,7 @@ export const units = [
       },
       {
        "id":"u3-c3",
-       "title":"Section III - Command Deck of Extinction",
+       "title":"Section III,Command Deck of Extinction",
        "intro":"Five holographic environments rotate around the captain's chair, each one a different context. Name the relapse mechanisms and the airlock opens.",
        "background":"/images/unit3/chamber-3.jpg",
        "questions": [
@@ -1666,7 +1666,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Extinction is context-specific — the original fear memory is never erased, only suppressed by a new inhibitory memory tied to the extinction context",
+               "text":"Extinction is context-specific,the original fear memory is never erased, only suppressed by a new inhibitory memory tied to the extinction context",
                "correct": true
               },
               {
@@ -1674,8 +1674,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"One of the holographic environments on the command deck flickers — the red-striped one. A rat inside it freezes in fear, despite having been perfectly calm in the gold one moments before. The captain's chair creaks. The alien ship has watched humans relapse this way for centuries.",
-           "explanation":"Renewal shows that returning to the acquisition context restores the extinguished fear response. This proves extinction does not erase the original CS-US memory — it creates a new, context-specific inhibitory memory. The original fear is always there; extinction only covers it in the context where it occurred."
+           "wrongStory":"One of the holographic environments on the command deck flickers,the red-striped one. A rat inside it freezes in fear, despite having been perfectly calm in the gold one moments before. The captain's chair creaks. The alien ship has watched humans relapse this way for centuries.",
+           "explanation":"Renewal shows that returning to the acquisition context restores the extinguished fear response. This proves extinction does not erase the original CS-US memory,it creates a new, context-specific inhibitory memory. The original fear is always there; extinction only covers it in the context where it occurred."
           },
           {
            "id":"u3-c3-q2",
@@ -1690,7 +1690,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Context resolves the ambiguity of the extinguished CS by determining which memory is retrieved — CS-US (fear) or CS-no US (safety)",
+               "text":"Context resolves the ambiguity of the extinguished CS by determining which memory is retrieved,CS-US (fear) or CS-no US (safety)",
                "correct": true
               },
               {
@@ -1698,8 +1698,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"Two memories float in the viewport — one labeled fear, one labeled safety — attached to the same CS. The command deck's lights shift color. In one context, the fear memory surfaces. In another, the safety memory does. Context is not adding anything. It is choosing.",
-           "explanation":"Bouton's theory: after extinction, the CS has two memories — CS-US and CS-no US. The CS is ambiguous. Context acts as a retrieval cue, determining which memory is activated. An excitatory (acquisition) context retrieves the fear memory; a neutral or extinction context retrieves the safety memory."
+           "wrongStory":"Two memories float in the viewport,one labeled fear, one labeled safety,attached to the same CS. The command deck's lights shift color. In one context, the fear memory surfaces. In another, the safety memory does. Context is not adding anything. It is choosing.",
+           "explanation":"Bouton's theory: after extinction, the CS has two memories,CS-US and CS-no US. The CS is ambiguous. Context acts as a retrieval cue, determining which memory is activated. An excitatory (acquisition) context retrieves the fear memory; a neutral or extinction context retrieves the safety memory."
           },
           {
            "id":"u3-c3-q3",
@@ -1722,8 +1722,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The command deck shows a single extinction session — one context, one night, perfectly executed. Then the patient goes home. The renewal effect activates. The reinstatement effect activates. Spontaneous recovery creeps in. One session in one context was never going to hold against all three.",
-           "explanation":"Because extinction is context-specific (renewal), single-context extinction leaves the original memory intact everywhere else. Multiple contexts generalize extinction more broadly. Spaced sessions produce more durable decrements. Addressing reminder cues prevents reinstatement. No single method eliminates relapse risk — the original learning is never erased."
+           "wrongStory":"The command deck shows a single extinction session,one context, one night, perfectly executed. Then the patient goes home. The renewal effect activates. The reinstatement effect activates. Spontaneous recovery creeps in. One session in one context was never going to hold against all three.",
+           "explanation":"Because extinction is context-specific (renewal), single-context extinction leaves the original memory intact everywhere else. Multiple contexts generalize extinction more broadly. Spaced sessions produce more durable decrements. Addressing reminder cues prevents reinstatement. No single method eliminates relapse risk,the original learning is never erased."
           },
           {
            "id":"u3-c3-q4",
@@ -1738,7 +1738,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Extinction creates response-specific conditioned inhibition — the stimulus became a signal to not press the lever, selectively suppressing R1 and releasing R2",
+               "text":"Extinction creates response-specific conditioned inhibition,the stimulus became a signal to not press the lever, selectively suppressing R1 and releasing R2",
                "correct": true
               },
               {
@@ -1746,8 +1746,8 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"Both response panels on the command deck go dark at once. The alien captain's log buzzes: \"Error — generalization assumed.\" The noise was only present during lever extinction. The chain was untouched by it. Inhibition is specific. It only covers the response it was built around.",
-           "explanation":"The stimulus present during lever-extinction became a conditioned inhibitor specific to lever pressing. When presented, R1 (lever) decreased and R2 (chain) increased — because inhibiting one response releases competitive suppression on the other. Instrumental extinction mirrors Pavlovian conditioned inhibition: specific, not general."
+           "wrongStory":"Both response panels on the command deck go dark at once. The alien captain's log buzzes: \"Error,generalization assumed.\" The noise was only present during lever extinction. The chain was untouched by it. Inhibition is specific. It only covers the response it was built around.",
+           "explanation":"The stimulus present during lever-extinction became a conditioned inhibitor specific to lever pressing. When presented, R1 (lever) decreased and R2 (chain) increased,because inhibiting one response releases competitive suppression on the other. Instrumental extinction mirrors Pavlovian conditioned inhibition: specific, not general."
           },
           {
            "id":"u3-c3-q5",
@@ -1762,7 +1762,7 @@ export const units = [
                "correct": false
               },
               {
-               "text":"Animals form expectancies about reward magnitude — when reality violates that expectancy, behavior shifts beyond what S-R theory predicts",
+               "text":"Animals form expectancies about reward magnitude,when reality violates that expectancy, behavior shifts beyond what S-R theory predicts",
                "correct": true
               },
               {
@@ -1770,7 +1770,7 @@ export const units = [
                "correct": false
               }
             ],
-           "wrongStory":"The command deck's final display shows two rats — one sulking, one sprinting. They received the same reward. But one expected more. The alien ship logs it quietly: \"Expectancy violation detected. S-R theory insufficient.\" The rats knew what they were owed.",
+           "wrongStory":"The command deck's final display shows two rats,one sulking, one sprinting. They received the same reward. But one expected more. The alien ship logs it quietly: \"Expectancy violation detected. S-R theory insufficient.\" The rats knew what they were owed.",
            "explanation":"The depression effect (downshifted rats run slower than controls always on small reward) and elation effect (upshifted rats run faster than controls always on large reward) both show that animals encode specific expectations about outcomes. When those expectations are violated, behavior overshoots or undershoots what S-R theory would predict."
           }
         ],
