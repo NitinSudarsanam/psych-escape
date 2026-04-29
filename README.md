@@ -1,16 +1,74 @@
-# React + Vite
+# Psych Escape Room
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A psychology quiz game built as an escape room. Answer questions correctly to advance through chambers and escape each level. One wrong answer sends you back to try again from the same question.
 
-Currently, two official plugins are available:
+## Levels
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**The Pyramid of the Mind**
+Five sealed chambers covering classical conditioning, habituation, memory, and Pavlovian models. Set inside an ancient Egyptian pyramid.
 
-## React Compiler
+**The Haunted House of Consequence**
+Five rooms covering operant conditioning, shaping, outcome knowledge, delay discounting, and extinction. Set inside Hargrove Mansion.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Alien Ship Escape Protocol**
+Three sections covering punishment theory, avoidance learning, and extinction relapse. Set aboard a behaviorist alien spacecraft.
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each chamber contains five questions. Each question has one correct answer and three incorrect answers. A correct answer advances to the next question. An incorrect answer shows a story consequence and lets you retry from the same question. Clear all five questions to collect the chamber relic and move on.
+
+## Tech Stack
+
+| Layer | Tool |
+|---|---|
+| Framework | React 19 |
+| Build | Vite 8 |
+| Styling | Plain CSS with custom properties |
+| Deployment | Vercel |
+
+## Project Structure
+
+```
+psych-escape/
+  public/
+    images/
+      unit1/    # Pyramid chamber backgrounds
+      unit2/    # Haunted house chamber backgrounds
+      unit3/    # Alien ship chamber backgrounds
+  src/
+    data/
+      units.js          # All questions, answers, and image paths
+    screens/
+      HomeScreen.jsx
+      IntroScreen.jsx
+      ChamberIntroScreen.jsx
+      QuestionScreen.jsx
+      WrongAnswerScreen.jsx
+      RoomClearScreen.jsx
+      WinScreen.jsx
+    components/
+      AnswerButton.jsx
+      RelicBar.jsx
+    App.jsx
+    gameReducer.js
+```
+
+## Editing Content
+
+All question banks and chamber backgrounds live in `src/data/units.js`. Each chamber has a `background` field pointing to its image in `public/images/`. Each unit has `chamberStartBg` and `chamberEndBg` for the intro and completion screens.
+
+## Local Setup
+
+```bash
+cd psych-escape
+npm install
+npm run dev
+```
+
+## Build and Deploy
+
+```bash
+npm run build
+```
+
+The `dist` folder is the output. Deploy by pushing to the connected GitHub repository and Vercel handles the rest. Set the Vercel root directory to `psych-escape`.
